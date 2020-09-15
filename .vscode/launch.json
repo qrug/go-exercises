@@ -1,0 +1,22 @@
+{
+    "code-runner.executorMap": {
+        "go": "go run",
+        "go.gopath": "/f/workspace/goland",
+        "go.toolsGopath": "/f/workspace/goland"
+    },
+    "code-runner.cwd": "/f/workspace/govscode/github.com/qrug/go-exercises/go-exercises",
+    "go.toolsGopath": "/f/workspace/goland",
+    "go.inferGopath": false,
+    "go.gopath": "/f/workspace/goland",
+    "configurations": [
+        {
+            "name":"Launch",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceFolder}",
+            "env": {},
+            "args": []
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package proto ;
+
+message HiRequest{
+    string requestId = 1;
+    string requestData = 2;
+}
+
+message HiResponse {
+    string code = 1;
+    bool isSuccess = 2;
+    string result = 3; 
+}
+
+service HiService {
+    rpc SendStream (stream HiRequest) returns (stream HiResponse);
+}
